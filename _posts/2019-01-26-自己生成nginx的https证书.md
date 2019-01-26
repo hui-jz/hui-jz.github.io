@@ -27,7 +27,7 @@ Verifying - Enter pass phrase for /home/work/app/ssl.key:   //再次确认密码
 -- 注 -- 
 	key文件的密码。不推荐输入。因为以后要给nginx使用。每次reload nginx配置时候都要你验证这个PAM密码的。--
 ## genrsa 参数介绍:
-1. genrsa	//genrsa 标准命令生成私钥
-2. -des3		//-des|-des3|-idea：不同的加密算法
+1. genrsa		//genrsa 标准命令生成私钥
+2. -des3		//-des/-des3/-idea：不同的加密算法
 3. -out 		//指定生成ssl.key的路径.
 4. 1024 		//指定生成私钥的大小，默认是2048.
