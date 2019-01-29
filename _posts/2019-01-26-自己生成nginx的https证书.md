@@ -44,10 +44,10 @@ There are quite a few fields but you can leave some blank
 For some fields there will be a default value,
 If you enter '.', the field will be left blank.
 -----
-Country Name (2 letter code) [XX]:CN
-Common Name : bigdata.hn.sgcc.com.cn
+Country Name (2 letter code) [XX]:CN  //国家名 字母代码
+Common Name : bigdata.hn.sgcc.com.cn  //域名
 Common Name : sharebigdata.hn.sgcc.com.cn
-Email Address : xmz_flx@hn.sgcc.com.cc
+Email Address : xmz_flx@hn.sgcc.com.cc  //邮箱
 ```
 
 
@@ -90,30 +90,3 @@ make && make install
 	-out 		//证书的保存路径
 	-days 		//证书的有效期限，单位是day（天），默认是365天
 	-signkey 	//指定签名钥匙
-
-
-
-
-
-
-
-
-
-
-Proc-Type: 4,ENCRYPTED
-DEK-Info: DES-EDE3-CBC,C16D0170689FB594
-
-EuT7WOHzI6Ga5znXmx9SuYUL5fyy5oEb1Ef4cXKkjbRgz2n9v5W/en3NpB9eK+3t
-0zEHykl8zYYWg88d9q67+TyengFS9Std+uCKYWPKBaSaEN/jcL4HwNEvNx96mhjP
-5Tj1oiGHQORtXW4nHQBEbdPjc0B6+EhYuG48sVNNq6syY/NQu8hOG9jMKrWmiGGq
-/7F0Jl9tlbbDyh0YgNb3HnuNnKYLlXx+HDpi2MohMQNx/jo2uZNVUI2/JJX0hklZ
-P3sodCoh7PbfqY004Om/+C0IynzIxdCxNM8UynMYh1+XXj2UiFWzDhCtz3Myv7aD
-l8sBtf0Tjq4JvYWMI1Y0JRmnzTKqtcozME8mflfeDzCrHcTnFM0u0ZUnH1bJadKG
-Zk7rjCyzQAKI8VTsYD0J6deSl0h7Mx85Vr2fJaAJtxWrP6eUCVNqeTbqxifBiJqn
-uUBxUAUCP1x+UwpH6N2FTibfH6Fan+WiaOr2aYjP4gS5YPiZ6/Y6s8cSK+JLKHt8
-w1+aEfYmGjkNLAIElaenTsXj5zn/9JQi8lPJ3KbBtb9bHgeQZzqj8hLcdtANEb8V
-/xp+krJHd84g8UBsJX7LZNyKyGvG8mLiz66SSeyNCWzOcJ/kPrVBXVvj7q5LryS1
-eakoqpT23RtCyV+4uc9+EpqSh7aSjr3d5q0sTWxmk9E6Z0c8lGxlyh4jnHGbrVD9
-qZc3feFTwnSbSXMAFQe5zUYZYt+d/Fdmo79ePhlDzQYF3MAz1jz9Rj6BOrbpOT+d
-VbBJUIuMWrn+XZUJdrtBqwtSi7Fsx2OwlvMFdCLUUKI=
------END RSA PRIVATE KEY-----
